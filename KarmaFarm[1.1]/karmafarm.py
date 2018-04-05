@@ -9,7 +9,7 @@ from pytz import timezone
 
 
 #Create reddit user
-reddit = praw.Reddit('User', user_agent='BOT')
+reddit = praw.Reddit('User', user_agent='User')
 
 
 banned = {} #Initialize dictionary of lists of banned ids
